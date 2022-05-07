@@ -1,9 +1,5 @@
 # Metarhia subsystems
 
-| Critical | High   | Medium  | Low         | Paused |
-| -------- | ------ | ------- | ----------- | ------ |
-| 14 May   | 21 May | 11 June | End ot 2022 |        |
-
 | Subsystem / Task              | Priority | Maintainer        | Comments                    |
 | ----------------------------- | -------- | ----------------- | --------------------------- |
 | Application server            | High     | Timur Shemsedinov | worker restart & stability  |
@@ -38,3 +34,9 @@
 | Application firewall          | Paused   |                   |                             |
 | Load balancer                 | Paused   |                   |                             |
 | Globalstorage                 | Paused   | Timur Shemsedinov | distributed storage         |
+
+## Timeline
+
+| Critical | High   | Medium  | Low         | Paused |
+| -------- | ------ | ------- | ----------- | ------ |
+| 14 May   | 21 May | 11 June | End ot 2022 |        |
