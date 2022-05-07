@@ -24,8 +24,9 @@
 | Admin panel                              | Medium   | [Leon Polak][leonpolak]           |                                        |
 | WEB IDE                                  | Medium   | [Leon Polak][leonpolak]           |                                        |
 | Frontend framework                       | Medium   | [Roman Ohiievych][rohiievych]     | [swayer][swayer]                       |
-| Metacom (ws, streams)                    | Low      | [Roman Ohiievych][rohiievych]     |                                        |
-| Transport (http2, tcp, tls)              | Low      |                                   |                                        |
+| Metacom: send events to server           | Medium   | [Roman Ohiievych][rohiievych]     |                                        |
+| Metacom: streams                         | Low      | [Roman Ohiievych][rohiievych]     |                                        |
+| Metacom transport: ws, http2, tcp, tls   | Low      |                                   |                                        |
 | Computation (Spreadsheet)                | Low      | [Timur Shemsedinov][tshemsedinov] | js reactive expressions                |
 | Metarhia CLI                             | Low      |                                   | generate app, api etc.                 |
 | Orchestration                            | Low      | [Timur Shemsedinov][tshemsedinov] | [metacom][metacom] between peers       |
