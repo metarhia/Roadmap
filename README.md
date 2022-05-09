@@ -40,7 +40,7 @@
 
 | Critical | High   | Medium  | Low         | Paused |
 | -------- | ------ | ------- | ----------- | ------ |
-| 14 May   | 21 May | 11 June | End ot 2022 |        |
+| 14 May   | 21 May | 11 June | End of 2022 |        |
 
 [impress]: https://github.com/metarhia/impress
 [metavm]: https://github.com/metarhia/metavm
