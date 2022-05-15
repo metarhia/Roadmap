@@ -11,7 +11,7 @@
 | [OAuth 2.0][oauth2]                      | Critical |                                   | prerequisite for ESB                   |
 | Enterprise bus ([openapi][openapi])      | Critical | [Timur Shemsedinov][tshemsedinov] | declarative service integration        |
 | Storage multitenancy                     | Critical | [Georg Oldenburger][georgolden]   | sharding key, tenant id                |
-| Application multitenancy                 | Critical | [Timur Shemsedinov][tshemsedinov] | impress as virtual hosting             |
+| Application multitenancy                 | Critical | [Timur Shemsedinov][tshemsedinov] | on the top of multithreading           |
 | Deploy automation                        | Medium   |                                   | `git pull` and restart                 |
 | Health monitoring                        | Medium   |                                   | Logs, profiling, metrics               |
 | Payment integration                      | Medium   |                                   | [Paypal][paypal], [Stripe][stripe]     |
@@ -27,7 +27,7 @@
 | Metacom: send events to server           | Medium   | [Roman Ohiievych][rohiievych]     |                                        |
 | Metacom: streams                         | Low      | [Roman Ohiievych][rohiievych]     |                                        |
 | Metacom transport: ws, http2, tcp, tls   | Low      |                                   |                                        |
-| Computation (Spreadsheet)                | Low      | [Timur Shemsedinov][tshemsedinov] | js reactive expressions                |
+| Computation (Spreadsheet)                | Medium   | [Timur Shemsedinov][tshemsedinov] | js reactive expressions                |
 | Metarhia CLI                             | Low      |                                   | generate app, api etc.                 |
 | Orchestration                            | Low      | [Timur Shemsedinov][tshemsedinov] | [metacom][metacom] between peers       |
 | Double-entry accounting                  | Low      |                                   | reactive js expressions                |
@@ -40,7 +40,7 @@
 
 | Critical | High   | Medium  | Low         | Paused |
 | -------- | ------ | ------- | ----------- | ------ |
-| 14 May   | 21 May | 11 June | End of 2022 |        |
+| 21 May   | 28 May | 11 June | End of 2022 |        |
 
 [impress]: https://github.com/metarhia/impress
 [metavm]: https://github.com/metarhia/metavm
