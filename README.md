@@ -24,17 +24,20 @@
 | Admin panel                              | Medium   | [Leon Polak][leonpolak]           |                                        |
 | WEB IDE                                  | Medium   | [Leon Polak][leonpolak]           |                                        |
 | Frontend framework                       | Medium   | [Roman Ohiievych][rohiievych]     | [swayer][swayer]                       |
-| Metacom: send events to server           | Medium   | [Roman Ohiievych][rohiievych]     |                                        |
-| Metacom: streams                         | Low      | [Roman Ohiievych][rohiievych]     |                                        |
-| Metacom transport: ws, http2, tcp, tls   | Low      |                                   |                                        |
-| Computation (Spreadsheet)                | Medium   | [Timur Shemsedinov][tshemsedinov] | js reactive expressions                |
-| Metarhia CLI                             | Low      |                                   | generate app, api etc.                 |
-| Orchestration                            | Low      | [Timur Shemsedinov][tshemsedinov] | [metacom][metacom] between peers       |
-| Double-entry accounting                  | Low      |                                   | reactive js expressions                |
-| PG migrations                            | Paused   |                                   |                                        |
-| Application firewall                     | Paused   |                                   |                                        |
-| Load balancer                            | Paused   |                                   |                                        |
-| Globalstorage                            | Paused   | [Timur Shemsedinov][tshemsedinov] | distributed storage                    |
+| Metacom: run server in random thread     | Critical | [Timur Shemsedinov][tshemsedinov] | https://github.com/metarhia/metacom/issues/302 |
+| Metacom: send events to server           | Medium   | [Timur Shemsedinov][tshemsedinov] | https://github.com/metarhia/metacom/issues/304 |
+| Metacom: streams                         | Low      | [Roman Ohiievych][rohiievych]     | https://github.com/metarhia/metacom/pull/233   |
+| Metacom transport: ws                    | Medium   |                                   | https://github.com/metarhia/metacom/issues/192 |
+| Metacom transport: tcp, tls              | Low      |                                   | https://github.com/metarhia/metacom/issues/305 |
+| Metacom transport: http2, http3          | Low      |                                   | https://github.com/metarhia/metacom/issues/306 |
+| Computation (Spreadsheet)                | Medium   | [Timur Shemsedinov][tshemsedinov] | [metacalc][metacalc] js reactive expressions   |
+| Metarhia CLI                             | Low      |                                   | generate app, api etc.                         |
+| Orchestration                            | Low      | [Timur Shemsedinov][tshemsedinov] | [metacom][metacom] between peers               |
+| Double-entry accounting                  | Low      |                                   | reactive js expressions                        |
+| PG migrations                            | Paused   |                                   | [metasql][metasql]                             |
+| Application firewall                     | Paused   |                                   | https://github.com/metarhia/impress/issues/928 |
+| Load balancer                            | Paused   |                                   |                                                    |
+| Globalstorage                            | Paused   | [Timur Shemsedinov][tshemsedinov] | [globalstorage][globalstorage] distributed storage |
 
 ## Timeline
 
@@ -50,6 +53,9 @@
 [metamail]: https://github.com/metarhia/metamail
 [swayer]: https://github.com/metarhia/swayer
 [metacom]: https://github.com/metarhia/metacom
+[metacalc]: https://github.com/metarhia/metacalc
+[metasql]: https://github.com/metarhia/metasql
+[globalstorage]: https://github.com/metarhia/globalstorage
 [oauth2]: https://oauth.net/2/
 [tshemsedinov]: https://github.com/tshemsedinov
 [leonpolak]: https://github.com/leonpolak
