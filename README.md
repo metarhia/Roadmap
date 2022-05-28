@@ -9,7 +9,7 @@
 | Scheduling                               | Medium   | [Timur Shemsedinov][tshemsedinov] | [cron][cron]: `0 5 * ? * * *`          |
 | Schemas ([metaschema][metaschema])       | Done     | [Georg Oldenburger][georgolden]   | custom types, refactoring              |
 | [OAuth 2.0][oauth2]                      | Critical |                                   | prerequisite for ESB                   |
-| Enterprise bus ([openapi][openapi])      | Critical | [Timur Shemsedinov][tshemsedinov] | declarative service integration        |
+| Enterprise bus ([openapi][openapi])      | Done     | [Timur Shemsedinov][tshemsedinov] | declarative service integration        |
 | Storage multitenancy                     | Critical | [Georg Oldenburger][georgolden]   | sharding key, tenant id                |
 | Application multitenancy                 | Done     | [Timur Shemsedinov][tshemsedinov] | on the top of multithreading           |
 | Deploy automation                        | Medium   |                                   | `git pull` and restart                 |
