@@ -2,16 +2,16 @@
 
 | Subsystem / Task                         | Priority | Maintainer                        | Comments                               |
 | ---------------------------------------- | -------- | --------------------------------- | -------------------------------------- |
-| Application server ([impress][impress])  | High     | [Timur Shemsedinov][tshemsedinov] | worker restart & stability             |
+| Application server ([impress][impress])  | Done     | [Timur Shemsedinov][tshemsedinov] | worker restart & stability             |
 | Core modules                             | Medium   | [Timur Shemsedinov][tshemsedinov] | support                                |
 | Ultra-thin isolation ([metavm][metavm])  | High     | [Timur Shemsedinov][tshemsedinov] | dependencies access control            |
 | Lowcode runtime ([lowscript][lowscript]) | High     | [Timur Shemsedinov][tshemsedinov] | [md][md], [petri][petri]               |
 | Scheduling                               | Medium   | [Timur Shemsedinov][tshemsedinov] | [cron][cron]: `0 5 * ? * * *`          |
-| Schemas ([metaschema][metaschema])       | Critical | [Georg Oldenburger][georgolden]   | custom types, refactoring              |
+| Schemas ([metaschema][metaschema])       | Done     | [Georg Oldenburger][georgolden]   | custom types, refactoring              |
 | [OAuth 2.0][oauth2]                      | Critical |                                   | prerequisite for ESB                   |
-| Enterprise bus ([openapi][openapi])      | Critical | [Timur Shemsedinov][tshemsedinov] | declarative service integration        |
+| Enterprise bus ([openapi][openapi])      | Done     | [Timur Shemsedinov][tshemsedinov] | declarative service integration        |
 | Storage multitenancy                     | Critical | [Georg Oldenburger][georgolden]   | sharding key, tenant id                |
-| Application multitenancy                 | Critical | [Timur Shemsedinov][tshemsedinov] | on the top of multithreading           |
+| Application multitenancy                 | Done     | [Timur Shemsedinov][tshemsedinov] | on the top of multithreading           |
 | Deploy automation                        | Medium   |                                   | `git pull` and restart                 |
 | Health monitoring                        | Medium   |                                   | Logs, profiling, metrics               |
 | Payment integration                      | Medium   |                                   | [Paypal][paypal], [Stripe][stripe]     |
@@ -26,13 +26,13 @@
 | Frontend framework                       | Medium   | [Roman Ohiievych][rohiievych]     | [swayer][swayer]                       |
 | Metacom: run server in random thread     | Critical | [Timur Shemsedinov][tshemsedinov] | https://github.com/metarhia/metacom/issues/302 |
 | Metacom: send events to server           | Medium   | [Timur Shemsedinov][tshemsedinov] | https://github.com/metarhia/metacom/issues/304 |
-| Metacom: streams                         | Low      | [Roman Ohiievych][rohiievych]     | https://github.com/metarhia/metacom/pull/233   |
+| Metacom: streams                         | Medium   | [Roman Ohiievych][rohiievych]     | https://github.com/metarhia/metacom/pull/233   |
 | Metacom transport: ws                    | Medium   |                                   | https://github.com/metarhia/metacom/issues/192 |
 | Metacom transport: tcp, tls              | Low      |                                   | https://github.com/metarhia/metacom/issues/305 |
 | Metacom transport: http2, http3          | Low      |                                   | https://github.com/metarhia/metacom/issues/306 |
-| Computation (Spreadsheet)                | Medium   | [Timur Shemsedinov][tshemsedinov] | [metacalc][metacalc] js reactive expressions   |
+| Computation (Spreadsheet)                | Done     | [Timur Shemsedinov][tshemsedinov] | [metacalc][metacalc] js reactive expressions   |
 | Metarhia CLI                             | Low      |                                   | generate app, api etc.                         |
-| Orchestration                            | Low      | [Timur Shemsedinov][tshemsedinov] | [metacom][metacom] between peers               |
+| Orchestration                            | Medium   | [Timur Shemsedinov][tshemsedinov] | [metacom][metacom] between peers               |
 | Double-entry accounting                  | Low      |                                   | reactive js expressions                        |
 | PG migrations                            | Paused   |                                   | [metasql][metasql]                             |
 | Application firewall                     | Paused   |                                   | https://github.com/metarhia/impress/issues/928 |
@@ -41,9 +41,9 @@
 
 ## Timeline
 
-| Critical | High   | Medium  | Low         | Paused |
-| -------- | ------ | ------- | ----------- | ------ |
-| 21 May   | 28 May | 11 June | End of 2022 |        |
+| Critical | High    | Medium  | Low         | Paused |
+| -------- | ------- | ------- | ----------- | ------ |
+| 11 June  | 18 June | 02 July | End of 2022 |        |
 
 [impress]: https://github.com/metarhia/impress
 [metavm]: https://github.com/metarhia/metavm
