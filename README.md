@@ -24,9 +24,11 @@
 | [OAuth 2.0][oauth2] client               | Critical  | [Timur Shemsedinov][tshemsedinov] | prerequisite for ESB                               |
 | [OAuth 2.0][oauth2] server               | Low       |                                   | provide auth service for 3rd party app             |
 | Storage multitenancy                     | Critical  | [Georg Oldenburger][georgolden]   | sharding key, tenant id                            |
+| User custom code multitenancy            | Critical  | [Timur Shemsedinov][tshemsedinov] | on the top of multitreading multitenancy           |
+| Deploy docker setup                      | Medium    |                                   |                                                    |
 | Deploy automation                        | Medium    |                                   | `git pull` and restart                             |
 | Health monitoring                        | Medium    |                                   | Logs, profiling, metrics                           |
-| Payment integration                      | Medium    |                                   | [Paypal][paypal], [Stripe][stripe]                 |
+| Payment integration                      | Medium    | [Leon Polak][leonpolak]           | [Paypal][paypal], [Stripe][stripe]                 |
 | Green threads                            | Medium    | [Timur Shemsedinov][tshemsedinov] | [noroutine][noroutine]                             |
 | File storage                             | Medium    |                                   | [S3][s3], [MinIO][minio]                           |
 | Mail subsystem                           | Medium    |                                   | [metamail][metamail]                               |
@@ -38,7 +40,7 @@
 | Frontend framework                       | Medium    | [Roman Ohiievych][rohiievych]     | [swayer][swayer]                                   |
 | Metacom: send events to server           | Medium    | [Timur Shemsedinov][tshemsedinov] | https://github.com/metarhia/metacom/issues/304     |
 | Metacom: streams                         | Medium    | [Roman Ohiievych][rohiievych]     | https://github.com/metarhia/metacom/pull/233       |
-| Metacom transport: ws                    | Medium    |                                   | https://github.com/metarhia/metacom/issues/192     |
+| Metacom transport: ws                    | Low       |                                   | https://github.com/metarhia/metacom/issues/192     |
 | Metacom transport: tcp, tls              | Low       |                                   | https://github.com/metarhia/metacom/issues/305     |
 | Metacom transport: http2, http3          | Low       |                                   | https://github.com/metarhia/metacom/issues/306     |
 | Metarhia CLI                             | Low       |                                   | generate app, api etc.                             |
