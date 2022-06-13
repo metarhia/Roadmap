@@ -38,6 +38,7 @@
 | Admin panel                              | Medium    | [Leon Polak][leonpolak]           |                                                    |
 | WEB IDE                                  | Medium    | [Leon Polak][leonpolak]           |                                                    |
 | Frontend framework                       | Medium    | [Roman Ohiievych][rohiievych]     | [swayer][swayer]                                   |
+| Metacom: session multi-connection        | Critical  | [Timur Shemsedinov][tshemsedinov] |                                                    |
 | Metacom: send events to server           | Medium    | [Timur Shemsedinov][tshemsedinov] | https://github.com/metarhia/metacom/issues/304     |
 | Metacom: streams                         | Medium    | [Roman Ohiievych][rohiievych]     | https://github.com/metarhia/metacom/pull/233       |
 | Metacom transport: ws                    | Low       |                                   | https://github.com/metarhia/metacom/issues/192     |
@@ -55,7 +56,7 @@
 
 | Critical | High    | Medium  | Low         | Paused |
 | -------- | ------- | ------- | ----------- | ------ |
-| 11 June  | 18 June | 02 July | End of 2022 |        |
+| 18 June  | 25 June | 02 July | End of 2022 |        |
 
 [impress]: https://github.com/metarhia/impress
 [metavm]: https://github.com/metarhia/metavm
