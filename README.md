@@ -12,6 +12,7 @@
 | Metacom: run server in random thread     | Done      | [Timur Shemsedinov][tshemsedinov] | https://github.com/metarhia/metacom/issues/302     |
 | Metacom: run in any thread               | Done      | [Timur Shemsedinov][tshemsedinov] | https://github.com/metarhia/metacom/pull/233       |
 | Computation (Spreadsheet)                | Done      | [Timur Shemsedinov][tshemsedinov] | [metacalc][metacalc] js reactive expressions       |
+| Storage multitenancy (for MVP)           | Done      |                                   | Dicision: use separaete databases                  |
 
 ## Next month plan
 
@@ -23,7 +24,6 @@
 | Scheduling improve                       | Medium    | [Timur Shemsedinov][tshemsedinov] | [cron][cron]: `0 5 * ? * * *`                      |
 | [OAuth 2.0][oauth2] client               | Critical  | [Timur Shemsedinov][tshemsedinov] | prerequisite for ESB                               |
 | [OAuth 2.0][oauth2] server               | Low       |                                   | provide auth service for 3rd party app             |
-| Storage multitenancy                     | Critical  | [Georg Oldenburger][georgolden]   | sharding key, tenant id                            |
 | User custom code multitenancy            | Critical  | [Timur Shemsedinov][tshemsedinov] | on the top of multitreading multitenancy           |
 | Deploy docker setup                      | Medium    |                                   |                                                    |
 | Deploy automation                        | Medium    |                                   | `git pull` and restart                             |
@@ -51,12 +51,14 @@
 | Application firewall                     | Paused    |                                   | https://github.com/metarhia/impress/issues/928     |
 | Load balancer                            | Paused    |                                   |                                                    |
 | Globalstorage                            | Paused    | [Timur Shemsedinov][tshemsedinov] | [globalstorage][globalstorage] distributed storage |
+| PostgreSQL: storage multitenancy         | Low       | [Georg Oldenburger][georgolden]   | Research                                           |
+| Globalstorage: storage multitenancy      | Low       |                                   |                                                    |
 
 ## Timeline
 
 | Critical | High    | Medium  | Low         | Paused |
 | -------- | ------- | ------- | ----------- | ------ |
-| 18 June  | 25 June | 02 July | End of 2022 |        |
+| 25 June  |         |         | End of 2022 |        |
 
 [impress]: https://github.com/metarhia/impress
 [metavm]: https://github.com/metarhia/metavm
