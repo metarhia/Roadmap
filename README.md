@@ -13,6 +13,7 @@
 | Metacom: run in any thread               | Done      | [Timur Shemsedinov][tshemsedinov] | https://github.com/metarhia/metacom/pull/233       |
 | Computation (Spreadsheet)                | Done      | [Timur Shemsedinov][tshemsedinov] | [metacalc][metacalc] js reactive expressions       |
 | Storage multitenancy (for MVP)           | Done      |                                   | Dicision: use separaete databases                  |
+| Metacom: streams                         | Done      | [Roman Ohiievych][rohiievych]     | https://github.com/metarhia/metacom/pull/233       |
 
 ## Next month plan
 
@@ -21,10 +22,10 @@
 | Core modules                             | Permanent | [Timur Shemsedinov][tshemsedinov] | support                                            |
 | Ultra-thin isolation ([metavm][metavm])  | High      | [Timur Shemsedinov][tshemsedinov] | dependencies access control                        |
 | Lowcode runtime ([lowscript][lowscript]) | High      | [Timur Shemsedinov][tshemsedinov] | [md][md], [petri][petri]                           |
-| Scheduling improve                       | Medium    | [Timur Shemsedinov][tshemsedinov] | [cron][cron]: `0 5 * ? * * *`                      |
-| [OAuth 2.0][oauth2] client               | Critical  | [Timur Shemsedinov][tshemsedinov] | prerequisite for ESB                               |
+| Scheduling improve                       | Low       | [Timur Shemsedinov][tshemsedinov] | [cron][cron]: `0 5 * ? * * *`                      |
+| [OAuth 2.0][oauth2] client               | High      | [Timur Shemsedinov][tshemsedinov] | prerequisite for ESB                               |
 | [OAuth 2.0][oauth2] server               | Low       |                                   | provide auth service for 3rd party app             |
-| User custom code multitenancy            | Critical  | [Timur Shemsedinov][tshemsedinov] | on the top of multitreading multitenancy           |
+| User custom code multitenancy            | High      | [Timur Shemsedinov][tshemsedinov] | on the top of multitreading multitenancy           |
 | Deploy docker setup                      | Medium    |                                   |                                                    |
 | Deploy automation                        | Medium    |                                   | `git pull` and restart                             |
 | Health monitoring                        | Medium    |                                   | Logs, profiling, metrics                           |
@@ -40,8 +41,7 @@
 | Frontend framework                       | Medium    | [Roman Ohiievych][rohiievych]     | [swayer][swayer]                                   |
 | Metacom: session multi-connection        | Critical  | [Timur Shemsedinov][tshemsedinov] |                                                    |
 | Metacom: send events to server           | Medium    | [Timur Shemsedinov][tshemsedinov] | https://github.com/metarhia/metacom/issues/304     |
-| Metacom: streams                         | Medium    | [Roman Ohiievych][rohiievych]     | https://github.com/metarhia/metacom/pull/233       |
-| Metacom transport: ws                    | Low       |                                   | https://github.com/metarhia/metacom/issues/192     |
+| Metacom transport: ws                    | Low       | [Timur Shemsedinov][tshemsedinov] | https://github.com/metarhia/metacom/issues/192     |
 | Metacom transport: tcp, tls              | Low       |                                   | https://github.com/metarhia/metacom/issues/305     |
 | Metacom transport: http2, http3          | Low       |                                   | https://github.com/metarhia/metacom/issues/306     |
 | Metarhia CLI                             | Low       |                                   | generate app, api etc.                             |
@@ -58,7 +58,7 @@
 
 | Critical | High    | Medium  | Low         | Paused |
 | -------- | ------- | ------- | ----------- | ------ |
-| 25 June  |         |         | End of 2022 |        |
+| 6 Aug    |         |         | End of 2022 |        |
 
 [impress]: https://github.com/metarhia/impress
 [metavm]: https://github.com/metarhia/metavm
